@@ -1,0 +1,30 @@
+﻿@{ Layout = "~/Views/Shared/_Search.cshtml";}
+<div style="margin-top:100px;width:68%" class="container">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <div style="margin-left: 1%" class="form-group">
+            <fieldset>
+                <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <select style="height:50px" class="form-control">
+                            <option value="Merchanical">Merchanical</option>
+                            <option value="Electrical">Electrical</option>
+                            <option value="Stationary">Stationary</option>
+                            <option value="Furniture">Furniture</option>
+                        </select>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9">
+                        <input style="min-width:550px" class="form-control" type="search" name="search" placeholder="Search" />
+                    </div>
+
+                    <div class="col-xs-4 col-sm-1 col-md-1 col-lg-1">
+                        <button class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    }
+</div>

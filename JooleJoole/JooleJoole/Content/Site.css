@@ -1,0 +1,70 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url("../Src/Components/joolejooleBackground.jpg");
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+#navUl{
+    float: right;
+}
+.navbar-header{
+    font-family:'Times New Roman', Times, serif;
+}
+#banner{
+    width: 30%;
+    height: 30%;
+    margin-left: 34%;
+    margin-right: 30%;
+    margin-top: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EDF0F2;
+}
+#form-section {
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #AAAAAA;
+}
+.form-group{
+    margin-left: 20%;
+}
+.form-group input{
+    height: 50px;
+}
+footer{
+    margin-top: 100px;
+}
